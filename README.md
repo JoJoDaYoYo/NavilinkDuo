@@ -25,12 +25,12 @@ The board breaks out two serial ports. The first is the hardware-based UART func
 *   **Visual Indicators:** Features onboard LEDs for Power and PPS (Pulse Per Second) indication. 
 *   **LED Routing:** Includes a jumper-selectable header to route the PPS signal to an offboard LED if desired. This is useful if the PPS LED must be externally visible in an enclosure.
 
-## Software Features - Cardputer ADV Version (Arduino Sample Development Code - Version 1.28.0 or higher)
+## Software Features - Cardputer ADV Version (Arduino Sample Development Code)
 
 *   **Zero-Flicker Double Buffering:** Utilizes the `M5Canvas` library to draw the entire UI in a hidden RAM sprite before pushing it to the LCD, achieving a buttery-smooth 20fps refresh rate without strobe effects.
 *   **Phase-Locked Software PPS:** Calculates a predictive 850ms to 150ms window synchronized to the NMEA data arrival, generating a visual UI asterisk that brackets the physical hardware PPS LED flash.
 *   **Dynamic Telemetry Terminal:** Replaces raw NMEA text dumps with a scrolling, 4-colour rotating data feed (Yellow, Green, White, Cyan) that extracts real-time satellite SV#s, Constellations, and Signal-to-Noise Ratios (SNR). Elsewhere on the screen, the current number of satellites being tracked and the HDOP (Horizontal Dilution of Position) value are shown. The current Maidenhead grid is also shown once enough satellites are locked. 
-*   **Polyphonic DTMF Audio:** Leverages the M5Unified I2S mixer to generate true Dual-Tone Multi-Frequency (DTMF) feedback. The 4 encoders and 3 actions (Up/Down/Click) are mapped to a standard telephone matrix. (Listen for the "VE5SAR" T9 boot tune!)
+*   **Polyphonic DTMF Audio:** Leverages the M5Unified I2S mixer to generate true Dual-Tone Multi-Frequency (DTMF) feedback. The 4 encoders and 3 actions (Up/Down/Click) are mapped to a standard telephone matrix. (Listen for the "VE5SAR" T9 startup tune!)
 *   **Dynamic Hot-Swap:** Safely detects the presence of the Adafruit Seesaw I2C Quad-Encoder (`0x49`) and dynamically reinitializes the library if the board is unplugged and reconnected during operation.
 
 ## Dependencies
