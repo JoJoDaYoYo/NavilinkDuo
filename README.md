@@ -37,6 +37,7 @@ The board breaks out two serial ports. The first is the hardware-based UART func
 
 *   The I2C bus scanner is a diagnostic tool to help identify any I2C devices currently attached to the Cardputer ADV.
 *   The NaviLink Duo board is NOT required for operation. However, when it IS attached, the GNSS module should appear, as well as any externally connected devices (like encoders) attached to the Qwiic connectors.
+*   DTMF tones will sound when a device initially connects, and again when it disconnects.
 
 ## License & Credits
 
