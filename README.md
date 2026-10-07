@@ -14,7 +14,7 @@ The **NaviLink Duo** is an open-source hardware expansion board and accompanying
 *   **Expansion:** Includes dedicated 3.3V I2C headers for attaching rotary encoders.
 *   **Audio/Serial Jacks:** Equipped with 3.5mm audio jacks and 8-pin MiniDIN jacks.
 *   **Radio Integration:** The Mini DIN-8 connectors are specifically wired for Yaesu ACC ports.
-*   **Pin Mapping Warning:** Pin numbers for the MiniDIN connectors differ between the Yaesu standard and the physical DIN-802 datasheet.
+*   **Pin Mapping Warning:** Pin numbers for the MiniDIN connectors differ between the Yaesu standard and the physical DIN-802 datasheet normally used for other purposes.
 *   **Power Regulation:** Utilizes an onboard 3.3V LDO regulator (LP2985-33DBVR).
 *   **RTC/Data Backup:** Supports an optional rechargeable lithium-manganese ML1220 backup battery with a 3V maximum. 
 *   **Battery Safety:** Users must absolutely not use a 3.6V lithium-ion battery.
@@ -23,10 +23,10 @@ The **NaviLink Duo** is an open-source hardware expansion board and accompanying
 *   **Visual Indicators:** Features onboard LEDs for Power and PPS (Pulse Per Second) indication. 
 *   **LED Routing:** Includes a jumper-selectable header to route the PPS signal to an offboard LED if desired.
 
-## Software Features (Sample Development Code - Version 1.28.0 or higher)
+## Software Features - Cardputer ADV Version (Arduino Sample Development Code - Version 1.28.0 or higher)
 
 *   **Zero-Flicker Double Buffering:** Utilizes the `M5Canvas` library to draw the entire UI in a hidden RAM sprite before pushing it to the LCD, achieving a buttery-smooth 20fps refresh rate without strobe effects.
-*   **Phase-Locked Software PPS:** Calculates a predictive 850ms to 150ms window synchronized to the NMEA data arrival, generating a visual UI asterisk that perfectly brackets the physical hardware PPS LED flash.
+*   **Phase-Locked Software PPS:** Calculates a predictive 850ms to 150ms window synchronized to the NMEA data arrival, generating a visual UI asterisk that brackets the physical hardware PPS LED flash.
 *   **Dynamic Telemetry Terminal:** Replaces raw NMEA text dumps with a scrolling, 4-color rotating data feed (Yellow, Green, White, Cyan) that extracts real-time satellite SV#s, Constellations, and Signal-to-Noise Ratios (SNR).
 *   **Polyphonic DTMF Audio:** Leverages the M5Unified I2S mixer to generate true Dual-Tone Multi-Frequency (DTMF) feedback. The 4 encoders and 3 actions (Up/Down/Click) are mapped to a standard telephone matrix. (Listen for the "VE5SAR" T9 boot tune!)
 *   **Dynamic Hot-Swap:** Safely detects the presence of the Adafruit Seesaw I2C Quad-Encoder (`0x49`) and dynamically reinitializes the library if the board is unplugged and reconnected during operation.
