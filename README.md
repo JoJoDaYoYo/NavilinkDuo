@@ -1,4 +1,4 @@
-# NaviLink Duo: Cardputer GNSS + Serial Breakout Board, with demo apps for an I2C decoder for GNSS/GPS Module + Adafruit Quad Encoder Board
+# NaviLink Duo: Cardputer GNSS + Serial Breakout Board, with demo code for an I2C decoder for GNSS/GPS Module + Adafruit Quad Encoder Board
 
 The **NaviLink Duo** is an open-source hardware expansion board and accompanying software demo designed for the M5Stack Cardputer. The board integrates a GNSS/GPS module, has Qwiic ports for external quad-rotary encoder support, and has dual serial breakouts, making it a highly capable tool for amateur radio operators and hardware hackers. 
 
