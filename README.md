@@ -33,7 +33,7 @@ The board breaks out two serial ports. The first is the hardware-based UART func
 *   **Polyphonic DTMF Audio:** Leverages the M5Unified I2S mixer to generate true Dual-Tone Multi-Frequency (DTMF) feedback. The 4 encoders and 3 actions (Up/Down/Click) are mapped to a standard telephone matrix. (Listen for the "VE5SAR" T9 startup tune!)
 *   **Dynamic Hot-Swap:** Safely detects the presence of the Adafruit Seesaw I2C Quad-Encoder (`0x49`) and dynamically reinitializes the library if the board is unplugged and reconnected during operation.
 
-## Dependencies
+## Cardputer ADV Arduino Software Dependencies
 
 To compile the sample sketch, ensure the following libraries are installed in your Arduino IDE:
 *   `M5Cardputer` (and by extension, `M5Unified`)
