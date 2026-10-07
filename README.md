@@ -2,7 +2,7 @@
 
 The **NaviLink Duo** is an open-source hardware expansion board and accompanying software demo designed for the M5Stack Cardputer. The board integrates a GNSS/GPS module, has Qwiic ports for external quad-rotary encoder support, and has dual serial breakouts, making it a highly capable tool for amateur radio operators and hardware hackers. 
 
-The board breaks out two serial ports. The first is the hardware-based UART functionality built into the Cardputer itself. This port is wired to two separate physical ports in parallel (one 3.5mm jack, in parallel with a Mini-Din 8 jack wired to be compatible with Yaesu amateur radio serial ports). The second serial port is a software port, wired to the CS and MISO pins of the SPI port on the Cardputer. This software serial is wired to 3.5mm and Mini-Din 8 jacks similarly to the UART serial. 
+The board breaks out two serial ports. The first is the hardware-based UART functionality built into the Cardputer itself. This port is wired to two separate physical ports in parallel (one 3.5mm jack, in parallel with a Mini DIN-8 jack wired to be compatible with Yaesu amateur radio serial ports). The second serial port is a software port, wired to the Cardputer's SPI CS and MISO pins. This software serial is wired to 3.5mm and Mini DIN-8 jacks, similar to the UART serial. 
 
 > **Important Usage Note:** The provided application code is strictly a sample intended for development, demonstration, and testing purposes. The NaviLink Duo is a versatile hardware platform, and developers are encouraged to use the board as a foundation for building their own custom projects and applications!
 
