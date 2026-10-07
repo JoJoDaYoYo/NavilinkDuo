@@ -45,6 +45,7 @@ To compile the sample sketch, ensure the following libraries are installed in yo
 *   **License:** MIT License  
 
 *This project is open-source. You are free to use, modify, and distribute this software and hardware design in your own projects. Please retain the author attribution in derivative works.*
+
 <img width="576" height="768" alt="IMG_1179" src="https://github.com/user-attachments/assets/ce3254c2-6017-48be-bb55-012b9679b76e" />
 <img width="1365" height="719" alt="image" src="https://github.com/user-attachments/assets/3cff0b69-59aa-4186-a3b4-589c6dffaad5" />
 <img width="1586" height="346" alt="image" src="https://github.com/user-attachments/assets/7884c335-3934-4214-8883-067479a01315" />
