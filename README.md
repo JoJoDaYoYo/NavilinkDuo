@@ -41,7 +41,7 @@ The board breaks out two serial ports. The first is the hardware-based UART func
 
 ## License & Credits
 
-*   **Author:** Jody Herperger, VE5SAR  
+*   **Author / Hardware Developer:** Jody Herperger, VE5SAR  
 *   **AI Assistant:** Google Gemini (Code generation & logic structuring)  
 *   **License:** MIT License  
 
