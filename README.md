@@ -30,7 +30,7 @@ The board breaks out two serial ports. The first is the hardware-based UART func
 *   GNSS satellite status, signal reports, and polar satellite map
 *   Maidenhead grid calculation and RTC time sync from GNSS module to Cardputer clock
 *   Encoder "dial" testing indicators, including pushbuttons
-*   Dual serial "monitor" to verify incoming RX traffic on the two ports
+*   Dual serial "monitor" to display any incoming RX traffic on the two ports at a variety of Baud rates
 *   See the version release notes for full feature descriptions.
 
 ## Software Features - Cardputer ADV Version (I2C Bus Scanner Arduino Sample Development Code)
