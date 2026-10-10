@@ -54,11 +54,11 @@ The board breaks out two serial ports. The first is the hardware-based UART func
 <img width="1186" height="597" alt="image" src="https://github.com/user-attachments/assets/107d0ee3-682f-455e-824b-1bf3b1757b56" />
 
 <img width="257" height="166" alt="image" src="https://github.com/user-attachments/assets/beeb3691-f4f4-4c6b-ac18-69902f75bce3" />
-<img width="272" height="168" alt="image" src="https://github.com/user-attachments/assets/e29e72d8-9d07-45a4-af5b-e6be3f82235a" />
-<img width="255" height="157" alt="image" src="https://github.com/user-attachments/assets/0a8c6f83-10e0-4ab1-9bcc-06c921e5f44d" />
-<img width="232" height="140" alt="image" src="https://github.com/user-attachments/assets/464fde28-276e-473c-908e-6a8fbdb58712" />
-<img width="258" height="160" alt="image" src="https://github.com/user-attachments/assets/c8f063fe-1f7c-4893-984d-a29389359c4b" />
-<img width="267" height="162" alt="image" src="https://github.com/user-attachments/assets/5aae297d-fee7-4f1f-9640-137c012a6bea" />
+<img width="257" height="166" alt="image" src="https://github.com/user-attachments/assets/e29e72d8-9d07-45a4-af5b-e6be3f82235a" />
+<img width="257" height="166" alt="image" src="https://github.com/user-attachments/assets/0a8c6f83-10e0-4ab1-9bcc-06c921e5f44d" />
+<img width="257" height="166" alt="image" src="https://github.com/user-attachments/assets/464fde28-276e-473c-908e-6a8fbdb58712" />
+<img width="257" height="166" alt="image" src="https://github.com/user-attachments/assets/c8f063fe-1f7c-4893-984d-a29389359c4b" />
+<img width="257" height="166" alt="image" src="https://github.com/user-attachments/assets/5aae297d-fee7-4f1f-9640-137c012a6bea" />
 
 
 
